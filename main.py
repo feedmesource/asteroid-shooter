@@ -56,7 +56,7 @@ score = 0
 
 def generate_random_asteroid():
     rand_start_x = random.randint(0, display_width)
-    rand_start_y = random.randint(-2 * Asteroid.biggest_size, display_height / 4)
+    rand_start_y = random.randint(-2 * Asteroid.biggest_size, display_height // 4)
     rand_speed = random.randint(1, 2)
     rand_size = random.randint(7, Asteroid.biggest_size)
 
